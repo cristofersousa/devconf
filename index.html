@@ -8,7 +8,9 @@
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
   <link href="./node_modules/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/sponsors.css">
   <link rel="stylesheet" href="assets/css/speaker.css">
+  <link rel="stylesheet" href="assets/css/schedule.css">
   <!-- IE polyfills, keep the order please -->
   <script src="../assets/js/modenizr-custom.js"></script>
 </head>
@@ -161,20 +163,50 @@
           </div>
         </section>
 
-        <div class="wrapper">
-          <div class="brands__logos">
-            <img class=" " src="/assets/img/lendico.png" alt="Company Lendico" width="10%">
-            <img class=" " src="/assets/img/calamar.png" alt="Company Calamar" width="10%">
-            <img class=" " src="/assets/img/fcamara.png" alt="Company FCamara" width="10%">
-            <img class=" " src="/assets/img/s2it.png" alt="Company S2it" width="10%">
-            <img class=" " src="/assets/img/monitora.png" alt="Company Monitora" width="10%">
-            <img class=" " src="/assets/img/luiza-labs.png" alt="Company Luiza Labs" width="10%">
+        <section class="sponsors">
+          <div class="wrapper">
+            <h2 class="section-title with-border">Sponsors</h2>
+
+            <div class="sponsor-category diamond">
+                <h3 class="text-center">Diamond</h3>
+
+                <div class="brands__logos">
+                  <img src="/assets/img/lendico.png" alt="Company Lendico">
+                  <img src="/assets/img/s2it.png" alt="Company S2it">
+                </div>
+            </div>
+
+            <div class="sponsor-category gold">
+                <h3 class="text-center">Gold</h3>
+
+                <div class="brands__logos">
+                  <img src="/assets/img/monitora.png" alt="Company Monitora">
+                  <img src="/assets/img/luiza-labs.png" alt="Company Luiza Labs">
+                </div>
+            </div>
+
+            <div class="sponsor-category silver">
+                <h3 class="text-center">Silver</h3>
+
+                <div class="brands__logos">
+                  <img src="/assets/img/calamar.png" alt="Company Calamar">
+                </div>
+            </div>
+
+            <div class="sponsor-category bronze">
+                <h3 class="text-center">Bronze</h3>
+
+                <div class="brands__logos">
+                  <img src="/assets/img/fcamara.png" alt="Company FCamara">
+                </div>
+            </div>
+
           </div>
-        </div>
+        </section>
 
         <section class="speaker">
             <div class="wrapper">
-                <h1> Speakers</h1>
+                <h2 class="section-title"> Speakers</h2>
 
                 <div class="speaker__profile">
                   <div class="row">
@@ -265,13 +297,55 @@
             </div> <!--/wrapper-->
         </section>
 
+        <section class="schedule">
+            <div class="wrapper">
+                <h2 class="section-title with-border">Schedule</h2>
+
+                <ul class="schedule-items">
+                    <li>08:00 - 08:30 | Credenciamento</li>
+                    <li>08:30 - 09:00 | Abertura</li>
+                    <li>
+                        <label for="schedule-item-1" class="see-details-link">09:00 - 10:00 | Palestra - Ubiratan Soares @LuizaLabs</label><input type="checkbox" id="schedule-item-1" class="see-details"/>
+                        <p class="details">Descrição: Nessa palestra, nós vamos discutir causas e consequências do acoplamento de uma aplicação a frameworks / ferramentas, e como podemos "descolar" nosso sistema desses detalhes de implementação através de arquitetura de software. Arquitetura limpa - Clean Architecture - é um nome proposto pelo mito Uncle Bob Martin para descrever um estilo de projetar sistemas de maneira que o centro esteja naquilo que mais importa : aquilo que o software deve fazer - trazendo como benefícios manutenabilidade, extensibilidade, testabilidade e principalmente, independência em relação a peças que eventualmente podem ser substituídas.</p>
+                    </li>
+                    <li>
+                      <label for="schedule-item-2" class="see-details-link">10:00 - 10:45 | Palestra da comunidade</label><input type="checkbox" id="schedule-item-2" class="see-details"/>
+                      <p class="details">Descrição: Nessa palestra, nós vamos discutir causas e consequências do acoplamento de uma aplicação a frameworks / ferramentas, e como podemos "descolar" nosso sistema desses detalhes de implementação através de arquitetura de software. Arquitetura limpa - Clean Architecture - é um nome proposto pelo mito Uncle Bob Martin para descrever um estilo de projetar sistemas de maneira que o centro esteja naquilo que mais importa : aquilo que o software deve fazer - trazendo como benefícios manutenabilidade, extensibilidade, testabilidade e principalmente, independência em relação a peças que eventualmente podem ser substituídas.</p>
+                    </li>
+                    <li>10:45 - 11:00 | Coffee Break</li>
+                    <li>
+                      <label for="schedule-item-3" class="see-details-link">11:00 - 12:00 | Palestra - Loiane Groner @CityBank</label><input type="checkbox" id="schedule-item-3" class="see-details"/>
+                      <p class="details">Descrição: Nessa palestra, nós vamos discutir causas e consequências do acoplamento de uma aplicação a frameworks / ferramentas, e como podemos "descolar" nosso sistema desses detalhes de implementação através de arquitetura de software. Arquitetura limpa - Clean Architecture - é um nome proposto pelo mito Uncle Bob Martin para descrever um estilo de projetar sistemas de maneira que o centro esteja naquilo que mais importa : aquilo que o software deve fazer - trazendo como benefícios manutenabilidade, extensibilidade, testabilidade e principalmente, independência em relação a peças que eventualmente podem ser substituídas.</p>
+                    </li>
+                    <li>Almoço</li>
+                    <li>
+                        <label for="schedule-item-4" class="see-details-link">14:00 - 15:00 | Palestra - Alex Ferreira @Locaweb</label><input type="checkbox" id="schedule-item-4" class="see-details"/>
+                        <p class="details">Descrição: Nessa palestra, nós vamos discutir causas e consequências do acoplamento de uma aplicação a frameworks / ferramentas, e como podemos "descolar" nosso sistema desses detalhes de implementação através de arquitetura de software. Arquitetura limpa - Clean Architecture - é um nome proposto pelo mito Uncle Bob Martin para descrever um estilo de projetar sistemas de maneira que o centro esteja naquilo que mais importa : aquilo que o software deve fazer - trazendo como benefícios manutenabilidade, extensibilidade, testabilidade e principalmente, independência em relação a peças que eventualmente podem ser substituídas.</p>
+                    </li>
+                    <li>
+                        <label for="schedule-item-5" class="see-details-link">15:00 - 16:00 | Palestra da comunidade</label><input type="checkbox" id="schedule-item-5" class="see-details"/>
+                        <p class="details">Descrição: Nessa palestra, nós vamos discutir causas e consequências do acoplamento de uma aplicação a frameworks / ferramentas, e como podemos "descolar" nosso sistema desses detalhes de implementação através de arquitetura de software. Arquitetura limpa - Clean Architecture - é um nome proposto pelo mito Uncle Bob Martin para descrever um estilo de projetar sistemas de maneira que o centro esteja naquilo que mais importa : aquilo que o software deve fazer - trazendo como benefícios manutenabilidade, extensibilidade, testabilidade e principalmente, independência em relação a peças que eventualmente podem ser substituídas.</p>
+                    </li>
+                    <li>16:00 - 16:30 | Coffee Break</li>
+                    <li>
+                        <label for="schedule-item-6" class="see-details-link">16:30 - 17:30 | Palestra da comunidade</label><input type="checkbox" id="schedule-item-6" class="see-details"/>
+                        <p class="details">Descrição: Nessa palestra, nós vamos discutir causas e consequências do acoplamento de uma aplicação a frameworks / ferramentas, e como podemos "descolar" nosso sistema desses detalhes de implementação através de arquitetura de software. Arquitetura limpa - Clean Architecture - é um nome proposto pelo mito Uncle Bob Martin para descrever um estilo de projetar sistemas de maneira que o centro esteja naquilo que mais importa : aquilo que o software deve fazer - trazendo como benefícios manutenabilidade, extensibilidade, testabilidade e principalmente, independência em relação a peças que eventualmente podem ser substituídas.</p>
+                    </li>
+                    <li>
+                        <label for="schedule-item-7" class="see-details-link">17:30 - 18:30 | Palestra - Carlos Rodrigues @FCamara</label><input type="checkbox" id="schedule-item-7" class="see-details"/>
+                        <p class="details">Descrição: Nessa palestra, nós vamos discutir causas e consequências do acoplamento de uma aplicação a frameworks / ferramentas, e como podemos "descolar" nosso sistema desses detalhes de implementação através de arquitetura de software. Arquitetura limpa - Clean Architecture - é um nome proposto pelo mito Uncle Bob Martin para descrever um estilo de projetar sistemas de maneira que o centro esteja naquilo que mais importa : aquilo que o software deve fazer - trazendo como benefícios manutenabilidade, extensibilidade, testabilidade e principalmente, independência em relação a peças que eventualmente podem ser substituídas.</p>
+                    </li>
+                    <li>18:30 - 19:00 | Encerramento</li>
+                </ul>
+            </div>
+        </section>
 
 
         <footer class="footer" role="contentinfo">
           <div class="wrapper">
             <div class="footer__info">
               <div class="footer__info-brand">
-                <img src="" alt="DevConf - Somos Caipira e gostamos de Tecnologia">
+                <img src="/assets/img/opensanca.svg" alt="DevConf - Somos Caipira e gostamos de Tecnologia">
                 <p>
                   DevConf - Somos caipira e gostamos de tecnologia © 2017.
                 </p>

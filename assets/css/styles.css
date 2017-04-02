@@ -2259,11 +2259,10 @@ main {
 
 .footer__info-brand img {
     width: 100%;
-    height: 30px;
-    max-width: 28px;
+    max-width: 50px;
     display: inline-block;
     vertical-align: middle;
-    margin: -4px 5px 0 0
+    margin: -4px 5px 0 0;
 }
 
 .footer__info-brand p {
@@ -5202,4 +5201,18 @@ a[data-course] .pane__title h3 {
 
 .svg .faq-category__icon--miscellaneous {
     background-image: url(/assets/img/icons/faq--misc.svg)
+}
+
+section {
+  padding: 30px;
+  margin-top: 30px;
+}
+
+.section-title {
+  padding: 10px 0;
+  margin-bottom: 25px;
+}
+
+.section-title.with-border {
+  border-bottom: 3px solid;
 }
