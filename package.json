@@ -4,6 +4,7 @@
   "description": "landing page DevConf 2017",
   "main": "index.js",
   "scripts": {
+    "start": "npm install && gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "cristofersousa",
