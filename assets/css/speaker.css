@@ -11,3 +11,34 @@
     /* Standard syntax */
     color: #fafafa;
 }
+
+
+
+.speaker__profile-about a{
+  color: #fafafa;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: .9em;
+}
+
+.speaker__profile-about a:hover {
+  color: #f1c40f;
+}
+
+.speaker__profile-social {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.speaker__profile-social a {
+  margin-right: 10px;
+  text-align: center;
+  color: #fafafa;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+.speaker__profile-social a:hover {
+  color: #f1c40f;
+
+}

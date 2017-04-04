@@ -13,11 +13,11 @@
 }
 
 .schedule-items li:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: #f7f7f7;
 }
 
 .schedule-items li:nth-child(odd) {
-  background-color: #c3c3c3;
+  background-color: rgb(43, 242, 207);
 }
 
 .schedule .see-details-link {
@@ -33,6 +33,5 @@
 
 .schedule .see-details:checked + .details {
   display: block;
-  border-top: 2px solid;
   padding-top: 10px;
 }
